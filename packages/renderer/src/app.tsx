@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import './app.css'
-import Editor from './editor'
-import Preview from './preview'
+import Editor from './components/editor/editor'
+import Preview from './components/preview/preview'
 
 const App: React.FC = () => {
   const [doc, setDoc] = useState<string>('# Hello!\n')

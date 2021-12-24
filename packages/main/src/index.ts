@@ -35,6 +35,7 @@ const createWindow = async () => {
     show: false, // Use 'ready-to-show' event to show window
     vibrancy: 'under-window',
     visualEffectState: 'active',
+    icon: `${__dirname}/src/assets/logo.svg`,
     height: 720,
     width: 1280,
     webPreferences: {
